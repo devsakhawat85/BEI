@@ -1,0 +1,6 @@
+{
+  "name": "BEI Tactical | Defense & Government Solutions",
+  "description": "BEI Tactical is a Service-Disabled Veteran-Owned Small Business (SDVOSB) providing military & Seabee training, government staffing, maritime vessel leasing, and tactical equipment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0b0d0e;
+    color: #eceeea;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: -0.02em;
+  }
+
+  .font-mono-tactical {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Tactical Background Grid Pattern */
+.bg-grid-tactical {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+.bg-dots-tactical {
+  background-size: 24px 24px;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+}
+
+/* Subtle glow effects */
+.glow-olive {
+  box-shadow: 0 0 40px -10px rgba(88, 105, 79, 0.35);
+}
+
+.border-tactical {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.border-tactical-accent {
+  border-color: rgba(129, 151, 116, 0.3);
+}
+
+/* Custom scrollbar for modern dark feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0d0e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1d2226;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #58694f;
+}
